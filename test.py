@@ -25,12 +25,14 @@ def count_words(text):
                 if i == " " or i == "\n":
                         slowa += 1
         return slowa
+
 def count_vowels(text):
         samogloski = 0
         for i in text:
-                if i in "aeiouy":
+                if i in "aeiouyAEIOUY":
                         samogloski += 1
         return samogloski
+
 
 #to jest ponad programem
 def count_lines(text):
